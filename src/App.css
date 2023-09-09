@@ -1,0 +1,26 @@
+.square{
+  border: 1px solid #999;
+  background: #fff;
+  margin-top: -1px;
+  margin-left: -1px;
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  height: 40px;
+  float: left;
+  padding: 0;
+}
+.board-row::after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.center{
+  margin-top: 240px;
+  margin-left: 550px;
+}
+.status{
+  margin-bottom: 20px;
+  font-style: italic;
+}
